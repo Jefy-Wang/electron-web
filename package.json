@@ -10,6 +10,7 @@
   "author": "weifeng.wang",
   "license": "ISC",
   "devDependencies": {
+    "@electron-forge/cli": "^6.4.2",
     "electron": "^26.2.2"
   }
 }
