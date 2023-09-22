@@ -18,4 +18,15 @@ const createWindow = () => {
 // 在 whenReady() 成功后调用 createWindow()
 app.whenReady().then(() => {
   createWindow()
+
+  // 如果没有窗口打开，则打开一个新窗口
+  app.on('activate', () => {
+    if (BrowserWindow.getAllWindows().length === 0) createWindow()
+  })
+})
+
+// 监听 app 模块的 window-all-closed 事件
+// 在关闭所有窗口时，退出应用
+app.on('window-all-closed', () => {
+  if (process.platform !== 'darwin') app.quit()
 })
