@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c05ec85f-9d82-40bc-a119-05489768aa9e" name="Changes" comment="feat: 注释">
-      <change afterPath="$PROJECT_DIR$/preload/index.js" afterDir="false" />
+    <list default="true" id="c05ec85f-9d82-40bc-a119-05489768aa9e" name="Changes" comment="feat: electron forge">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +49,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1695359023157</updated>
-      <workItem from="1695359024274" duration="2022000" />
+      <workItem from="1695359024274" duration="2453000" />
     </task>
     <task id="LOCAL-00001" summary="feat: init">
       <option name="closed" value="true" />
@@ -90,13 +91,31 @@
       <option name="project" value="LOCAL" />
       <updated>1695360577230</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="feat: preload">
+      <option name="closed" value="true" />
+      <created>1695361094087</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1695361094087</updated>
+    </task>
+    <task id="LOCAL-00007" summary="feat: electron forge">
+      <option name="closed" value="true" />
+      <created>1695361194810</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1695361194810</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="feat: init" />
     <MESSAGE value="feat: readme" />
     <MESSAGE value="feat: 注释" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: 注释" />
+    <MESSAGE value="feat: preload" />
+    <MESSAGE value="feat: electron forge" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: electron forge" />
   </component>
 </project>
